@@ -1,0 +1,14 @@
+{
+  "name": "shapr3d-migrate",
+  "version": "0.1.0",
+  "description": "Backup, restore and account-migrate Shapr3D's local container on macOS.",
+  "bin": {
+    "shapr3d-migrate": "bin/cli.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "smoke": "node bin/cli.js --help"
+  }
+}
